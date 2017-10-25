@@ -1,3 +1,36 @@
-/* This imports all the styling from the other components */ 
+/* This imports all the styling from the other components */
 @import url('../containers/menu/index.css');
 @import url('../containers/homePage/index.css');
+@import url('../styles/fonts.css');
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+    letter-spacing: 0.5px;
+    line-height: 2;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    background: linear-gradient(180deg, rgb(106, 118, 253), rgb(160, 163, 247), rgb(213, 207, 241), rgb(230, 230, 230));
+    padding: 100px 70px;
+    width: 100%;
+}
+
+.menu-fixed {
+    position: fixed;
+    background-color: rgb(142, 151, 255);
+    width: 100%;
+    z-index: 9999;
+    padding: 15px 70px 10px 70px
+}
+
+* { box-sizing: border-box; }

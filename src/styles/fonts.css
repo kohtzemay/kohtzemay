@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Muller Bold';
+    src: url('fonts/Muller-ExtraBold-DEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller Regular';
+    src: url('./fonts/Muller-Thin-DEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

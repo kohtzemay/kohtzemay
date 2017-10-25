@@ -1,3 +1,5 @@
+@import url('./components/menuPanel/index.css');
+
 .menu-bar {
     display: flex;
     flex-direction: row;
