@@ -1,0 +1,13 @@
+.content {
+    height: 220vh;
+}
+
+div[name="exploreSection"] {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 1050px;
+}

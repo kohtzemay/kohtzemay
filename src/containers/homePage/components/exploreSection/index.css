@@ -1,0 +1,80 @@
+.tile-row.one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tile-row.two {
+    margin: 40px 0;
+}
+
+.blog-tile {
+    background-color: rgb(51, 153, 255);
+    padding: 40px;
+    border-radius: 5px;
+    width: 400px;
+    color: white;
+}
+
+.portfolio-tile {
+    background-color: rgb(255, 108, 108);
+    padding: 40px;
+    border-radius: 5px;
+    width: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.create-tile {
+    background-color: rgb(51, 204, 204);
+    padding: 40px;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-tile {
+    background-color: rgb(255, 153, 102);
+    padding: 40px;
+    border-radius: 5px;
+    width: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.quote-tile {
+    background-image: url('https://images.unsplash.com/photo-1494806465803-34e97e0ec1c0?dpr=1.5&auto=format&fit=crop&w=1080&h=723&q=80&cs=tinysrgb&crop=');
+    background-position: bottom;
+    padding: 60px 100px;
+    border-radius: 5px;
+    width: 500px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.blog-tile:hover, .portfolio-tile:hover, .create-tile:hover, .about-tile:hover {
+    box-shadow: -1px 0 20px 0px #666;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Muller DEMO', sans-serif;
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.border {
+    border-bottom: 8px solid #ffffff;
+    width: 5%;
+    margin: 20px 0 40px 0;
+}

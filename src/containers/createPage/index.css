@@ -1,0 +1,7 @@
+.main-content {
+    flex-direction: column;
+}
+
+.section.process {
+    width: 800px;
+}

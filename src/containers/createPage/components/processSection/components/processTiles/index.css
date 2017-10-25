@@ -1,0 +1,56 @@
+.tiles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.process-tile {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 380px;
+    height: 380px;
+    margin: 20px 0;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.process.introductions {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    color: rgb(51, 153, 255);
+}
+
+.process.outlining {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    color: rgb(255, 108, 108);
+}
+
+.process.development {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    color: rgb(51, 204, 204);
+}
+
+.process.launch {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    color: rgb(255, 153, 102);
+}

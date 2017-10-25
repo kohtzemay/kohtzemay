@@ -1,0 +1,20 @@
+.intro-section {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 40px;
+    width: 800px;
+    font-family: 'Karla', Helvetica, Arial, sans-serif;
+    color: rgb(70, 70, 70);
+    text-align: justify;
+    line-height: 2;
+    margin-top: 120px;
+}
+
+.quote {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(106, 118, 253);
+    text-align: left;
+    line-height: 1.3;
+}

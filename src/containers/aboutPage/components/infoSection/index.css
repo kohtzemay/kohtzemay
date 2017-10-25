@@ -1,0 +1,16 @@
+.info-section {
+    display: flex;
+}
+
+.about-pic img {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,.3);
+    margin: -70px 50px 0 0;
+}
+
+h1.megan {
+    color: #000000;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}

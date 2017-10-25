@@ -1,0 +1,31 @@
+.portfolio-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-width {
+    width: 900px;
+    margin-top: 50px;
+}
+
+.portfolio-card {
+    background-color: white;
+    border-radius: 5px;
+    width: 430px;
+    height: 430px;
+    margin-bottom: 35px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.portfolio-card h2 {
+    padding: 5px 20px;
+}
+
+.portfolio-card p {
+    padding: 20px;
+}

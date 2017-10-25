@@ -1,0 +1,10 @@
+.heading.create {
+    flex: 1;
+    order: 1;
+}
+
+p.create {
+    flex: 4;
+    order: 0;
+    margin-right: 80px;
+}
