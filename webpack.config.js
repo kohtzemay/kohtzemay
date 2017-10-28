@@ -6,7 +6,7 @@ module.exports = {
     entry: [ './index.js', ],
 
     output: {
-        path: path.join(__dirname, 'www'),
+        path: path.join(__dirname, 'public'),
         filename: 'bundle.js',
     },
 
@@ -22,7 +22,7 @@ module.exports = {
                 use: [ 'style-loader', 'css-loader' ]
             },
             {
-                test: /\.(png|woff|woff2|eot|ttf|svg)$/, 
+                test: /\.(png|woff|woff2|eot|ttf|svg)$/,
                 loader: 'url-loader?limit=100000' }
         ]
     },

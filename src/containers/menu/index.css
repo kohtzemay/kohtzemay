@@ -6,7 +6,7 @@
 }
 
 .site-title {
-    font-family: 'Muller DEMO', sans-serif;
+    font-family: 'Muller Bold', sans-serif;
     font-weight: bold;
     font-size: 25px;
     color: #ffffff;
@@ -16,8 +16,8 @@
 }
 
 span.page {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: capitalize;
+    font-family: 'Muller Bold', sans-serif;
+    text-transform: uppercase;
     /*font-weight: bold;
     font-size: 25px;
     color: #ffffff;

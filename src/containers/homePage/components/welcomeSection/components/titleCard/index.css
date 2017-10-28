@@ -7,7 +7,7 @@
 .title-card {
     background-color: #ffffff;
     border-radius: 5px;
-    padding: 40px 60px;
+    padding: 60px 60px 40px 60px;
     width: 600px;
     font-family: 'Karla', Helvetica, Arial, sans-serif;
     font-size: 17px;
@@ -18,7 +18,7 @@
 }
 
 h1.hi {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Muller Bold', sans-serif;
     font-size: 90px;
     font-weight: bold;
     text-transform: lowercase;
@@ -36,7 +36,7 @@ h1.hi {
     border: 3px solid rgb(106, 118, 253);
     background-color: #ffffff;
     color: rgb(106, 118, 253);
-    font-family: 'Muller DEMO', sans-serif;
+    font-family: 'Muller Bold', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -46,8 +46,9 @@ h1.hi {
     outline: none;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: rgb(106, 118, 253);
+    border: 3px solid rgb(106, 118, 253);
     color: #ffffff;
 }
 
@@ -74,7 +75,7 @@ h1.hi {
 
 #middle-cloud {
     float: right;
-    margin-top: -190px;
+    margin-top: -150px;
     margin-right: 40px;
     animation-name: floating;
     animation-duration: 5s;
