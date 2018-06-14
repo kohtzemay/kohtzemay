@@ -1,0 +1,86 @@
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 40px;
+    width: 800px;
+    font-family: 'Karla', Helvetica, Arial, sans-serif;
+    color: rgb(70, 70, 70);
+    text-align: justify;
+    line-height: 2;
+    margin-top: 120px;
+}
+
+.info-section {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.about-pic img {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,.3);
+    margin: -100px 50px 0 0;
+}
+
+h1.megan {
+    color: #000000;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* currentlySection.js */
+.row {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.sect {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    max-width: initial;
+}
+
+.descr {
+    padding: 0 15px;
+}
+
+.descr h3 {
+    font-family: 'Muller Bold', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ol li {
+    counter-increment: step-counter;
+    margin-left: 30px;
+}
+
+ol li:before {
+    content: counter(step-counter);
+    font-family: 'Muller Bold', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(123, 132, 251);
+    margin-right: 30px;
+}

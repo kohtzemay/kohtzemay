@@ -1,0 +1,58 @@
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.icons{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 15px;
+    margin-top: -60px;
+    margin-left: -40px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.icons .tooltiptext:after {
+    content: '';
+	position: absolute;
+	bottom: 0;
+	left: 55%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top-color: white;
+	border-bottom: 0;
+	margin-left: -20px;
+	margin-bottom: -10px;
+}
+
+.icons:hover .tooltiptext {
+    visibility: visible;
+}

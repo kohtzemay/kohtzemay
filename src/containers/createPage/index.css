@@ -1,0 +1,87 @@
+.main-content {
+    flex-direction: column;
+}
+
+.section.process {
+    width: 800px;
+}
+
+/* introSection.js */
+.intro-section {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 40px;
+    width: 800px;
+    font-family: 'Karla', Helvetica, Arial, sans-serif;
+    color: rgb(70, 70, 70);
+    text-align: justify;
+    line-height: 2;
+    margin-top: 120px;
+}
+
+.quote {
+    font-family: 'Muller Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(106, 118, 253);
+    text-align: left;
+    line-height: 1.3;
+}
+
+/* processSection.js */
+.tiles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.process-tile {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 380px;
+    height: 380px;
+    margin: 20px 0;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.process.introductions {
+    font-family: 'Muller Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    color: rgb(51, 153, 255);
+}
+
+.process.outlining {
+    font-family: 'Muller Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    color: rgb(255, 108, 108);
+}
+
+.process.development {
+    font-family: 'Muller Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    color: rgb(51, 204, 204);
+}
+
+.process.launch {
+    font-family: 'Muller Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    color: rgb(255, 153, 102);
+}

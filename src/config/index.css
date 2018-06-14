@@ -1,0 +1,51 @@
+@import url("../containers/homePage/index.css");
+@import url("../containers/blogPage/index.css");
+@import url("../containers/aboutPage/index.css");
+@import url("../containers/portfolioPage/index.css");
+@import url("../containers/menu/index.css");
+@import url('./fonts.css');
+
+div {
+    white-space: pre-wrap;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+    letter-spacing: 0.5px;
+    line-height: 2;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main {
+    background: linear-gradient(180deg, rgb(106, 118, 253), rgb(160, 163, 247), rgb(213, 207, 241), rgb(230, 230, 230));
+    padding: 100px 70px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.menu-fixed {
+    position: fixed;
+    background-color: rgb(142, 151, 255);
+    width: 100%;
+    z-index: 9999;
+    padding: 15px 70px 10px 70px
+}
+
+* { box-sizing: border-box; }
+
+h2 {
+    font-family: 'Muller Bold', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}

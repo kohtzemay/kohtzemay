@@ -1,0 +1,114 @@
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.site-title, .site-title a {
+    font-family: 'Muller Bold', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    flex: 1;
+}
+
+span.page {
+    font-family: 'Muller Bold', sans-serif;
+    text-transform: uppercase;
+    /*font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    letter-spacing: 2px;*/
+}
+
+span.page.Home {
+    display: none;
+}
+
+.menu-lines {
+    color: #ffffff;
+    flex: 1;
+    text-align: right;
+    font-size: 30px;
+}
+
+.menu-lines span {
+    cursor: pointer;
+}
+
+.menu-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 102%;
+}
+
+
+/* menuPanel.js */
+@keyframes opac {
+    0% {opacity: 0; transform: translate(0%, 20%); }
+    100% {opacity: 1; transform: none; }
+}
+
+.menu {
+    position: fixed;
+    /* left: 57%; */
+    top: 14%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid rgb(106, 118, 253);
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,.3);
+    z-index: -1;
+    opacity: 0;
+    display: none;
+}
+
+.menu.open {
+    animation: opac 1s;
+    opacity: 1;
+    z-index: 99999;
+    display: block;
+}
+
+.menu.open:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	left: 94%;
+	width: 0;
+	height: 0;
+	border: 15px solid transparent;
+	border-bottom-color: #ffffff;
+	border-top: 0;
+	margin-left: -15px;
+	margin-top: -15px;
+}
+
+ul.menu-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu-list li {
+    margin: 0 30px;
+}
+
+ul.menu-list li a {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+ul.menu-list li a:hover {
+    border-bottom: 3px solid #000000;
+    padding-bottom: 3px;
+}

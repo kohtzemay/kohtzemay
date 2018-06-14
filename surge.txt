@@ -1,0 +1,7 @@
+How to upload to Surge
+
+1. >> npm run build
+2. >> cd build
+3. rename build/index.html to build/200.html
+4. >> surge
+5. done
